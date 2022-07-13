@@ -30,9 +30,9 @@ class Cliente:
     def data_nascimento(self: object) -> str:
         return date_para_str(self.__data_nascimento)
     @property
-    def data_cadastro(self: object) ->str:
+    def data_cadastro(self: object) -> str:
         return date_para_str(self.__data_cadastro)
 
-    def __str__(self: object) ->str:
+    def __str__(self: object) -> str:
         return f'Código: {self.codigo} \nNome: {self.nome} \nData de Nascimento: {self.data_nascimento}' \
                f' \nCadastro: {self.data_cadastro}'
