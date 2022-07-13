@@ -1,1 +1,1 @@
-# BNC
+sistema de banco
