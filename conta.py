@@ -45,3 +45,16 @@ class Conta:
     @property
     def salto_total(self: object) -> float:
         return self.__saldo_total
+    
+    @property
+    def saldo_total(self: object) -> float:
+        return self.saldo + self.limite
+
+    def depositar(self: object, valor: float) -> None:
+        pass
+
+    def sacar(self:object, valor: float) -> None:
+        pass
+
+    def transferir(self: object, destino: object, valor: float) -> None:
+        pass
